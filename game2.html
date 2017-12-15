@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Traffic racer</title>
+    <link href="game2.css" rel="stylesheet" /> </head>
+    <script src="jquery-3.2.1.min.js"></script>
+
+<body>
+        
+    <div id="score_div">
+        Score: <span id="score">0</span>
+    </div>
+    <div id="instruction">
+        Controls Player1: Right, Left, Up & Down Arrow Keys
+    </div>
+    <div id="instruction2">
+        Controls Player2: Right(D), Left(A), Up(W) & Down(S)
+    </div>
+
+   <!--  making the road container --> 
+    <div id="container">
+        <!-- making the line for the road  -->
+        <div id="line_1" class="line"></div>
+        <div id="line_2" class="line"></div>
+        <div id="line_3" class="line"></div>
+        <!-- the main car class --> 
+        <div id="car_4" class="car_4">
+
+        </div>
+
+
+        <div id="car" class="car">
+
+        </div>
+       <!--  the enemy car class  -->
+        <div id="car_1" class="car">
+        </div>
+        <div id="car_2" class="car">
+        </div>
+        <div id="car_3" class="car">
+        </div>
+       <!--  creating the restart button --> 
+        <div id="restart_div">
+            <button id="restart">
+                Restart<br>
+                <small class="small_text">(press Enter)</small>
+            </button>
+        </div>
+    </div>
+        
+        
+           <!-- 
+    </div> -->
+
+    <!-- <script src="jquery.min.js"></script> -->
+    <script src="game2.js"></script>
+</body>
+<audio controls autoplay hidden>
+  <source src="introgame.mov" type="audio/mpeg">
+</audio>
+
+</html>

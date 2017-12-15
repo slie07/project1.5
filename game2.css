@@ -1,0 +1,123 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: url(dragon.gif);
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    background-size: 1450px 1000px;
+
+}
+p {
+    font-size: 15px;
+
+}
+
+#container{
+    position: relative;
+    height: 90vh;
+    width: 25%;
+    left: 35%;
+    margin-top: 20px;;
+    background-color: #292929;
+    overflow: hidden;
+
+}
+.line{
+    position: absolute;
+    height: 150px;
+    width: 4%;
+    margin-left: 48%;
+    background-color: rgba(255,255,255,0.5);
+}
+#line_1{
+    top: -150px;
+}
+#line_2{
+    top: 150px;
+}
+#line_3{
+    top: 450px;
+}
+.car{
+    position: absolute;
+    height: 60px;
+    width: 40px;
+    background-image: url(player.gif);
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+#car{
+    bottom: 8%;
+    left: 60%;
+    
+}
+
+#car_1{
+    top: -100px;
+    left: 60%;
+    background-image: url(obstacle.gif);
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+#car_2{
+    top: -200px;
+    left: 40%;
+    background-image: url(bowser.gif);
+    background-repeat: no-repeat;
+    background-size: 40px;
+
+}
+#car_3{
+    top: -350px;
+    left: 50%;
+    background-image: url(mushroom.gif);
+    background-repeat: no-repeat;
+    background-size: 40px;
+
+}
+#restart_div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    display: none;
+    opacity: none;
+
+}
+
+#restart {
+    border: none;
+    padding: 25px;
+    color: white;
+    background-color: green;
+    font-size: 30px;
+    margin-top: 30%;
+}
+.small_text{
+    font-size: 15px;
+}
+#score_div{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 10%;
+    font-size: 35px;
+    background-color: white;
+    color: #454545;
+    padding: 10px;
+    box-shadow: 4px 4px 0px 1px #808080;
+}
+
+#instruction {
+    position: absolute;
+    margin-top: 55%;
+    margin-left: 33%;
+    font-size: 20px;
+    background-color: white;
+    color: #454545;
+    padding: 5px;
+
+}
